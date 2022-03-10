@@ -9,7 +9,11 @@
     'summary': 'Hospital Management System for Clinics and Pharmacies',
     'description': """Odoo Module for Doctors,Clinicians, Nurses etc""",
     'depends': [],
-    'data': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/menu.xml',
+        'views/patient_view.xml'
+    ],
     'demo': [],
     'installable': True,
     'auto_install': False,
